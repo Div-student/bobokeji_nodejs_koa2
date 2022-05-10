@@ -1,6 +1,6 @@
 const rq = require('request-promise')
-const APPID = "wx5740cfc1ee869efc"
-const APPSCRET = "0fac4d47878b00ec933f9f95661e5ffb"
+const APPID = "w******"
+const APPSCRET = "***********"
 const url = `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${APPID}&secret=${APPSCRET}`
 const fs = require('fs')
 const fileName = __dirname + '/' + 'access_token.json'
